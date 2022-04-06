@@ -1,0 +1,42 @@
+body a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    font-family: 'inter', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 28px 100px;
+    
+
+}
+.logo a {
+   font-size:18px;
+}
+
+header a{
+    color: #667085;  
+    font-size: 16px;
+    font-family: 'inter', sans-serif;
+    font-weight: 500;
+}
+
+.menu a{
+    margin-left: 32px;
+}
+
+.botoes a{  
+    margin-left: 48px;
+}
+
+.cadastrar{
+    box-sizing: border-box;
+    background: #8E2424;
+    border: 1px solid #8E2424;
+    padding: 10px 18px;
+    border-radius: 8px;
+    color: #FFF;
+}
