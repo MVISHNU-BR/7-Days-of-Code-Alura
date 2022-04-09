@@ -6,7 +6,7 @@ body a{
 :root {
     --text-color: #667085;
     --main-color: #8E2424;
-    --h1-color:  #101828;
+    --title-color:  #101828;
 
   }
 
@@ -54,9 +54,7 @@ header a{
     align-items: center;
 
     height: 407px;
-    margin: 96px;
-
-    border-bottom: 1px solid black;
+    margin-top: 96px;
 }
 
 .text span{
@@ -67,7 +65,7 @@ header a{
 
 .text h1 {
     font-size: 48px;
-    color: var(--h1-color);
+    color: var(--title-color);
     font-weight: 600;
 }
 
@@ -78,7 +76,44 @@ header a{
     font-size: 20px;
     color: var(--text-color);
     font-weight: 400;
-    height: 60px;
     line-height: 30px;
     text-align: center;
+}
+
+/*Metricas Container*/
+.metricas-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 112px;
+    margin-top: -90px; /*GAMBIARRA*/
+}
+
+.metricas-container div{
+    height: 72px;
+    width: 280px;
+    padding-right: 32px;
+}
+
+.metricas-container h2{
+    font-size: 60px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 72px;
+    color: var(--main-color);
+}
+
+.metricas-container span{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--title-color);
+}
+
+.metricas-container p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--text-color);
 }
