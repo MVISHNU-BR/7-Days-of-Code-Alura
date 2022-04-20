@@ -163,3 +163,44 @@ header a{
 .procurando-talentos img{
     border-radius: 15px;
 }
+
+/* Section Vagas*/
+
+.vagas{
+    margin: 0 auto;
+    width: 768px;
+}
+
+.vaga{
+    margin: 0 auto;
+    height: 136px;
+    width: 768px;
+    
+    padding-bottom: 24px;
+}
+
+.area-vaga{
+    color: var(--title-color);
+    font-weight: 500;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.titulo-vaga{
+    color: var(--title-color);
+    font-weight: 500;
+    font-size: 18px;
+    margin: 0px 8px;
+    display: block;
+    margin-bottom: 32px;
+
+}
+
+.informacoes span{
+    color: var(--text-color);
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+
+    margin: 0px 8px;
+}
