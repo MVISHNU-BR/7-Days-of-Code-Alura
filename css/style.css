@@ -240,3 +240,64 @@ header a{
     font-size: 14px;
 }
 
+/* FOOTER*/
+
+footer .rodape{
+    margin: 96px 0px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.rodape .h3{
+    font-size: 36px;
+    font-family: 'Inter';
+    color:  var(--title-color);
+}
+
+.rodape .sub-text, .direitos-reservados{
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--text-color);
+}
+
+.rodape .direitos-reservados{
+    font-size: 16px;
+}
+.email-box{
+    margin: 32px;
+}
+
+.rodape .email{
+    gap: 8px;
+
+    width: 360px;
+    height: 48px;
+
+    background: #FFFFFF;
+    border: 1px solid #D0D5DD;
+
+
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+}
+
+.rodape .btn-footer{
+    box-sizing: border-box;
+    margin-left: 16px;
+    width: 116px;
+    height: 48px;
+
+    background: var(--main-color);
+    border: 1px solid var(--main-color);
+    color: #FFF;
+
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+}
+
+.rodape .btn-footer:hover{
+    color: #000;
+}
